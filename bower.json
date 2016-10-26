@@ -1,0 +1,25 @@
+{
+  "name": "kiso-js",
+  "description": "Write lightweight and modular javascript UI components.",
+  "main": "index.js",
+  "authors": [
+    "Yoannis Jamar <yoannis.j@gmail.com>"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "UI",
+    "widgets",
+    "components",
+    "modular",
+    "lightweight",
+    "browser"
+  ],
+  "homepage": "https://github.com/yoannisj/kiso-js",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "name": "kiso-js",
+  "version": "0.1.0",
+  "description": "Write lightweight and modular javascript UI components.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/yoannisj/kiso-js.git"
+  },
+  "keywords": [
+    "UI",
+    "widgets",
+    "components",
+    "modular",
+    "lightweight",
+    "browser"
+  ],
+  "author": "Yoannis Jamar <yoannis.j@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yoannisj/kiso-js/issues"
+  },
+  "homepage": "https://github.com/yoannisj/kiso-js#readme"
+}
