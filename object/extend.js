@@ -1,5 +1,8 @@
 'use-strict';
 
+var merge = require('../util/merge');
+var compose = require('../util/compose');
+
 module.exports = function(mixins, options, props) {
 
   // allow omitting 'mixins' and 'options'

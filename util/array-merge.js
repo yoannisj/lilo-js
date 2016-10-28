@@ -1,6 +1,6 @@
 'use-strict';
 
-var pushUnique = require('src/utils/push-unique');
+var pushUnique = require('../util/push-unique');
 
 module.exports = function(arr) {
 

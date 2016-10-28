@@ -1,6 +1,7 @@
 'use-strict';
 
-var compose = require('src/utils/compose');
+var merge = require('../util/merge');
+var compose = require('../util/compose');
 
 module.exports = function(mixins, options)
 {

@@ -1,7 +1,7 @@
 'use-strict';
 
-var arrayMerge = require('src/utils/array-merge');
-var merge = require('src/utils/merge');
+var arrayMerge = require('../util/array-merge');
+var merge = require('../util/merge');
 
 module.exports = function(base, mixin, options) {
 

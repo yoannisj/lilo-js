@@ -1,6 +1,6 @@
 'use-strict';
 
-var arrayHas = require('src/utils/array-has');
+var arrayHas = require('../util/array-has');
 
 module.exports = function(arr) {
 

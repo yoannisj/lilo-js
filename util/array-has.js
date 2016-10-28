@@ -1,6 +1,6 @@
 'use-strict';
 
-var compare = require('src/utils/compare');
+var compare = require('../util/compare');
 
 module.exports = function(arr, val, strictLiterals) {
   // return true as soon as the value has been found
