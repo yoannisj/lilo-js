@@ -1,6 +1,6 @@
 {
   "name": "lilo-js",
-  "description": "Write lightweight and modular javascript UI components.",
+  "description": "Compose lightweight and modular javascript components.",
   "main": "index.js",
   "authors": [
     "Yoannis Jamar <yoannis.j@gmail.com>"

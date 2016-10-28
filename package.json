@@ -1,7 +1,7 @@
 {
   "name": "lilo-js",
   "version": "0.1.0",
-  "description": "Write lightweight and modular javascript UI components.",
+  "description": "Compose lightweight and modular javascript components.",
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
