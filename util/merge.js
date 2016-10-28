@@ -3,9 +3,10 @@
 var extend = (typeof window === 'object' ? require('jquery').extend : require('extend'));
 
 module.exports = function() {
-  // pass all arguments to `extend`
-  return extend.apply(null,
-    // and 'true' as first one for deep assignment
-    Array.prototype.slice.call(arguments).unshift(true)
-  );
+  // collect all arguments in an array in ordet to pass them to `extend`
+  var args = Array.prototype.slice.call(arguments);
+  // and 'true' as first one for deep assignment
+  args.unshift(true);
+
+  return extend.apply(this, args);
 };
