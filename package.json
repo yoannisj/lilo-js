@@ -1,5 +1,5 @@
 {
-  "name": "seize-js",
+  "name": "lilo-js",
   "version": "0.1.0",
   "description": "Write lightweight and modular javascript UI components.",
   "main": "src/index.js",

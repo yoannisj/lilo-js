@@ -23,7 +23,7 @@ var Base = module.exports = {
   // method for removing Component instance
   destroy: function() {
     this.$el.removeClass('has-' + this.name);
-    this.$el.removeData('seize_' + this.name);
+    this.$el.removeData('lilo_' + this.name);
     delete this.$el;
     delete this.el;
   }
