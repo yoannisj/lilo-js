@@ -89,3 +89,4 @@ Seize.util.arrayMerge(target, source, ...);
 Seize.util.merge(target, source, ...);
 Seize.util.compose(object, properties, options);
 ```
+
