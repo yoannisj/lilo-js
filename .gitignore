@@ -1,7 +1,8 @@
-# Dependencies
-# ------------
+# NodeJS
+# ------
 node_modules
 bower_components
+npm-debug.log
 
 # Misc files (OS and tools)
 # -------------------------

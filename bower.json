@@ -1,5 +1,6 @@
 {
   "name": "lilo-js",
+  "version": "0.1.1",
   "description": "Compose lightweight and modular javascript components.",
   "main": "index.js",
   "authors": [
