@@ -10,5 +10,4 @@ module.exports = {
   arrayMerge: require('src/util/array-merge'),
   merge: require('src/util/merge'),
   compose: require('src/util/compose'),
-  chain: require('src/util/chain')
 };
