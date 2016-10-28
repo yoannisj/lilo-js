@@ -13,6 +13,7 @@ var _components = {};
 var Seize = module.exports = function(name, Component) {
 
   if (this.exists(name)) {
+    throw new Error('Seize(): Component with name ' + name + ' already exists.');
     // throw error: Component with name {name} already exists
     return;
   }
@@ -56,7 +57,7 @@ $.fn.seize = function(name, options, init) {
   for (var i = 0, ln = this.length; i < ln; i++)
   {
     // get element and maybe attached instance
-    $el = this[i];
+    $el = this.eq(i);
     instance = $el.data('seize_' + name);
 
     // if no instance was attached yet
