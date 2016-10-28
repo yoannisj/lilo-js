@@ -50,7 +50,7 @@ module.exports = function(base, mixin, options) {
 
     // override base property
     else {
-      base[prop] == mixinProp;
+      base[prop] = mixinProp;
     }
 
   }
