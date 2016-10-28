@@ -1,14 +1,14 @@
 {
-  "name": "kiso-js",
+  "name": "seize-js",
   "version": "0.1.0",
   "description": "Write lightweight and modular javascript UI components.",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/yoannisj/kiso-js.git"
+    "url": "git@github.com:yoannisj/seize-js.git"
   },
   "keywords": [
     "UI",
@@ -21,7 +21,14 @@
   "author": "Yoannis Jamar <yoannis.j@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/yoannisj/kiso-js/issues"
+    "url": "https://github.com/yoannisj/seize-js/issues"
   },
-  "homepage": "https://github.com/yoannisj/kiso-js#readme"
+  "homepage": "https://github.com/yoannisj/seize-js#readme",
+  "dependencies": {
+    "equals": "^1.0.5",
+    "jquery": "^3.1.1"
+  },
+  "devDependencies": {
+    "extend": "^3.0.0"
+  }
 }

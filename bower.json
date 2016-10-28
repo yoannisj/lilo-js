@@ -1,5 +1,5 @@
 {
-  "name": "kiso-js",
+  "name": "seize-js",
   "description": "Write lightweight and modular javascript UI components.",
   "main": "index.js",
   "authors": [
@@ -14,7 +14,7 @@
     "lightweight",
     "browser"
   ],
-  "homepage": "https://github.com/yoannisj/kiso-js",
+  "homepage": "https://github.com/yoannisj/seize-js",
   "ignore": [
     "**/.*",
     "node_modules",
