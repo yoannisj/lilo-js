@@ -1,8 +1,10 @@
 'use-strict';
 
 // ============================================================================
-// =Module
+// =Core
 // ============================================================================
+
+var Base = require('component/base');
 
 // private container for registered components
 var _components = {};
@@ -26,6 +28,7 @@ var Seize = module.exports = function(name, Component) {
 
 };
 
+// Introspection Helpers
 Seize.get = function(name) {
   // return previously registered component
   // - will return 'undefined' if component has not been registered yet
@@ -35,6 +38,9 @@ Seize.get = function(name) {
 Seize.exists = function(name) {
   return !!(this.get(name));
 };
+
+// Base component
+Seize.Base = Base;
 
 // ============================================================================
 // =jQuery plugin
