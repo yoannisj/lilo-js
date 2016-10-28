@@ -3,6 +3,7 @@
 // ============================================================================
 
 module.exports = {
+  equals: require('equals'),
   compare: require('src/util/compare'),
   arrayHas: require('src/util/array-has'),
   pushUnique: require('src/util/push-unique'),
