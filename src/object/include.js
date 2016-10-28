@@ -4,6 +4,12 @@ var compose = require('src/utils/compose');
 
 module.exports = function(mixins, options)
 {
+  // inject default composition options
+  options = merge({},
+    this.__composeOptions__ || {},
+    options || {}
+  );
+
   // allow passing a single mixin
   if (!Array.isArray(mixins)) mixins = [ mixins ];
 

@@ -1,9 +1,5 @@
 'use-strict';
 
-var composeDefaults = {
-  merge: [ 'defaults' ]
-};
-
 module.exports = function(mixins, options, props) {
 
   // allow omitting 'mixins' and 'options'
@@ -26,14 +22,11 @@ module.exports = function(mixins, options, props) {
     mixins = [];
   }
 
-  // inject default options
-  if (this.__composeOptions__) {
-    // use parent class's options as defaults
-    options = merge({}, this.__composeOptions__, options);
-  } else {
-    // use general default options
-    options = merge({}, composeDefaults, options);
-  }
+  // inject default composition options
+  options = merge({},
+    this.__composeOptions__ || {},
+    options || {}
+  );
 
   // create inheriting object
   var child = Object.create(this);
