@@ -38,7 +38,8 @@ module.exports = function(mixins, options, props) {
   if (props) compose(child, props, options);
 
   // include mixins using composing options
-  this.include(mixins, options);
+  this.include.call(child, mixins, options);
+  // this.include(mixins, options);
 
   // attach default composition options so they can be
   // re-used as defaults in inheriting objects
