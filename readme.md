@@ -23,7 +23,7 @@ var Collapse = require('seize/mixins/collapse');
 var Panel = require('seize/mixins/panel');
 
 // register and expose component
-var CollapsePanel = Base.extend([Collapse, Panel], {
+var CollapsePanel = Base.chain([Collapse, Panel], {
   merge: [/* merged props */],
   omit: [/* omit props */],
   select: [/* select props */]
@@ -32,7 +32,7 @@ var CollapsePanel = Base.extend([Collapse, Panel], {
 });
 
 // register component
-module.exports = seize('collapsepanel', CollapsePanel);
+module.exports = Seize('collapsepanel', CollapsePanel);
 ```
 
 ### Use your component in jQuery
