@@ -32,7 +32,7 @@ var CollapsePanel = Base.extend([Collapse, Panel], {
 });
 
 // register component
-module.exports = seize('collapsepanel', CollapsePanel);
+module.exports = Seize('collapsepanel', CollapsePanel);
 ```
 
 ### Use your component in jQuery
