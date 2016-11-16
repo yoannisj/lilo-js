@@ -13,7 +13,7 @@ var _components = {};
 // main function, used to register a new component
 var Lilo = module.exports = function(name, Component) {
 
-  if (this.exists(name)) {
+  if (Lilo.exists(name)) {
     throw new Error('Lilo(): Component with name ' + name + ' already exists.');
     // throw error: Component with name {name} already exists
     return;
