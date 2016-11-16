@@ -46,6 +46,10 @@ module.exports = function(base, mixin, options) {
       else if(basePropType == 'object') {
         base[prop] = merge({}, baseProp || {}, mixinProp);
       }
+
+      else {
+        base[prop] = mixinProp;
+      }
     }
 
     // override base property
