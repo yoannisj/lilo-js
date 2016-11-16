@@ -18,11 +18,13 @@ module.exports = function(mixins, options, props) {
     else {
       options = {};
     }
+    break;
   case 1:
     // omitted both 'mixins' and 'options'
     props = mixins;
     options = {};
     mixins = [];
+    break;
   }
 
   // inject default composition options
