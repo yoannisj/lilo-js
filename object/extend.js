@@ -16,6 +16,7 @@ module.exports = function(mixins, options, props) {
     }
     // omitted 'options' argument
     else {
+      props = options;
       options = {};
     }
     break;
@@ -36,12 +37,12 @@ module.exports = function(mixins, options, props) {
   // create inheriting object
   var child = Object.create(this);
 
-  // include own properties using composing options
-  if (props) compose(child, props, options);
-
   // include mixins using composing options
   this.include.call(child, mixins, options);
   // this.include(mixins, options);
+
+  // include own properties using composing options
+  if (props) compose(child, props, options);
 
   // attach default composition options so they can be
   // re-used as defaults in inheriting objects
